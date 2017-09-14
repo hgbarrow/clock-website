@@ -21,9 +21,12 @@ fields = function() {
     ];
 };
 
+// This fractions are used to set the width and height relative to the browser window
+var widthFraction = 0.9,
+    heightFraction = 0.8;
 
-var width = window.innerWidth * 0.9,
-    height = window.innerHeight * 0.9,
+var width = window.innerWidth * widthFraction,
+    height = window.innerHeight * heightFraction,
     margin = {top: 20, left: 0, right: 0, bottom: 0},
     tickPadding = Math.min(width, height) * 0.015,
     arcPad = 0,
@@ -170,7 +173,7 @@ var getScale = function(unit) {
 render(startTime);
 setInterval(function() {
     var data = fields();
-    if (width != window.innerWidth * 0.9 || height != window.innerHeight * 0.9) {
+    if (width != window.innerWidth * widthFraction || height != window.innerHeight * heightFraction) {
         window.location.reload();
     }
     return render(data);
