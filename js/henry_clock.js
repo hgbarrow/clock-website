@@ -23,7 +23,7 @@ fields = function() {
 
 // This fractions are used to set the width and height relative to the browser window
 var widthFraction = 0.9,
-    heightFraction = 0.8;
+    heightFraction = 0.75;
 
 var width = window.innerWidth * widthFraction,
     height = window.innerHeight * heightFraction,
