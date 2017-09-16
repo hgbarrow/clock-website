@@ -1,0 +1,78 @@
+@charset "utf-8";
+.body {
+	margin:0;
+	paddingt:0;
+}
+.nav a {
+	color: #05315E;
+	font-size: 20px;
+	font-weight: bold;
+	padding:8px;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-family:"Trebuchet MS", "Gill Sans MT", Helvetica, Arial, sans-serif;
+}
+.nav img {
+	position:relative;
+	top:20px;
+}
+.nav li {
+	display:inline;
+}
+
+
+.jumbotron {
+	height: 500px;
+	max-width: 1920px;
+	background-image:url(Assets/CityBGwide.png);
+	background-position:center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family:"Trebuchet MS", "Gill Sans MT", Helvetica, Arial, sans-serif;
+	text-shadow: 3px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.jumbotron .container {
+	
+	position:relative;
+	top:20px;
+	margin-top:25px;
+	margin-left:0px;
+	padding-left:0px;
+	
+
+}
+
+.jumbotron h1 {
+	color:#FFFFFF;
+	font-size:48px;
+	font-weight:bold;
+	position:relative;
+	text-align:center;
+}
+
+.jumbotron ul {
+	list-style-type: none;
+	color:#fff;
+    font-size:20px;
+}
+
+.jumbotron ul {
+	display:bock;
+	text-align:center;
+}
+
+
+.more-info {
+	margin-left:auto;
+	margin-right:auto;
+	font-family:"Trebuchet MS", "Gill Sans MT", Helvetica, Arial, sans-serif;
+	max-width:1280px;
+}
+
+.more-info h3 {
+	text-align:center;
+}
+.more-info #link-paragraph {
+	text-align:center;
+}

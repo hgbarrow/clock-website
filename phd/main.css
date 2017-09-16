@@ -1,0 +1,75 @@
+@charset "utf-8";
+body {
+	background-color:#CDDAFE;}
+
+.navbar a {
+	color:#191919;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family:"Trebuchet MS", "Gill Sans MT", Helvetica, Arial, sans-serif;
+}
+.navbar .nav-pills{
+	display:inline-block;
+}
+
+
+
+.jumbotron {
+	margin-top:20px;
+	background-image:url(Assets/triangle-background-17.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	font-family:"Trebuchet MS", "Gill Sans MT", Helvetica, Arial, sans-serif;
+	text-align:center;
+}
+
+#headshot {
+	max-height:200px;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	
+	}
+
+.publications li {
+	padding-bottom:20px
+	}
+	
+@media (max-width: 767px) {
+   .more-info img {
+     display: table;
+     margin: 0 auto;
+   }
+   
+
+}
+.jumbotron h1 {
+	color:#000B2E;
+	font-weight:bold;
+	position:relative;
+	
+
+}
+
+.jumbotron h4 {
+	color:#000B2E;
+	list-style-type:none;
+	font-weight:bold;
+}
+
+.jumbotron ul {
+	text-align:center;
+}
+
+.more-info img {
+	float:right;
+}
+
+.caption {
+  width:300px;
+}
+.footer {
+	position:relative;
+	bottom: -20px;
+}
